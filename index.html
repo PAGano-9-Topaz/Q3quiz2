@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Quiz 2</title>
+
+	<!-- SETUP BOOTSTAP: link to Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<!-- link to JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<!-- Add style -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container-fluid bush items">
+		<div class="welcome">
+			<h1> Welcome to Pixel's Ticket Shop!</h1>
+		</div>
+		<div class="bush2">
+			</br>
+			<div class="container form-control">
+				<h1>Personal info</h1>
+				<hr>
+				<details>
+					<summary> <em> Fill out the form below</em></summary>
+					<form action=""> 
+						<label>Name: </label>
+						</br>
+						<input type="text" id="fullname" placeholder="Add your full name">
+						<br/>
+						<label>Email:</label>
+						</br>
+						<input type="email" id="email" placeholder="Place your email here">
+						</br>
+						</br>
+						<button type="button" id="submit" onclick="Willkommen()"> Submit info </button>
+					</form>
+				</details>
+			</div>
+			<div class="container form-control">
+				<h1> Ticket price</h1>
+				<hr>
+				<details>
+					<summary> <em> Fill out the form below</em></summary>
+					<form action=""> 
+						<label>Discount Select</label>
+						</br>
+						<select id="valueA">
+							<option disabled="true"></option>
+							<option value="0">None</option>
+							<option value="200">Student or PWD</option>
+							<option value="400">PIXEL-VIP SILVER</option>
+							<option value="600">Pixel-VIP GOLD</option>
+						</select>
+						<br/>
+						<label>Choose Seating:</label>
+						</br>
+						<select id="valueB">
+							<option disabled="true"></option>
+							<option value="2000">Economy</option>
+							<option value="3500">Premium Economy</option>
+						</select>
+						</br>
+						</br>
+						<button type="button" id="submit" onclick="Vater()"> Submit info </button>
+					</form>
+				</details>
+			</div>
+			<div class="container form-control">
+				<h1> Print ticket</h1>
+				<hr>
+				<details>
+					<summary> <em> Print your ticket</em></summary>
+					<img src="Train.png" class="photo">
+					<form action=""> 
+						<button type="button" id="submit" onclick="Mutter()" class=""> PRINT </button>
+						<button type="button" id="submit" onclick="Bruder()"  class=""> BUY MORE TICKETS </button>
+					</form>
+				</details>
+			</div>
+			</br>
+			<hr>
+		</div>
+	</div>
+
+
+		<!-- External JS -->
+	<script src="main.js"></script>
+</body>
+</html>

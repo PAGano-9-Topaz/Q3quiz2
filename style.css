@@ -1,0 +1,36 @@
+body {
+	background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/9bc27292880429.5e569ff84e4d0.gif);
+	font-family: Pixelify Sans;
+}
+
+.welcome {
+	background-color: rgba(235, 103, 131, 1.0);
+	border-radius: 15px;
+	text-align: center;
+}
+
+.items {
+	flex-direction: column;
+}
+
+.bush {
+	display: inline-flex;
+	padding: 20px;
+	background-color: rgba(255, 203, 164, .7);
+	margin: auto;
+	border-radius: 15px;
+	margin-top: 50px;
+}
+
+.bush2 {
+	display: inline-flex;
+	padding: 20px;
+	background-color: lightcyan;
+	margin: auto;
+	border-radius: 15px;
+	margin-top: 50px;
+}
+
+.photo {
+	width: 300px;
+}
